@@ -1,9 +1,22 @@
-*{
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} */
+
+#para1 {
+    background-color: aquamarine;
+    height: 20vh;
 }
 
-a{
-    background-color: lightblue;
+#para2 {
+    background-color: lightgray;
+    height: 60vh;
+}
+img{
+    max-width: 200px;
+    opacity: 0.3;
+}
+img:hover{
+    opacity: 1;
 }
