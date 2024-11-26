@@ -4,19 +4,14 @@
     box-sizing: border-box;
 } */
 
-#para1 {
-    background-color: aquamarine;
-    height: 20vh;
-}
+header{
+    height: 100vh;
+    background: url(/jason-leung-poI7DelFiVA-unsplash.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
 
-#para2 {
-    background-color: lightgray;
-    height: 60vh;
+    
 }
-img{
-    max-width: 200px;
-    opacity: 0.3;
-}
-img:hover{
-    opacity: 1;
+header h2{
+    color: azure;
 }
