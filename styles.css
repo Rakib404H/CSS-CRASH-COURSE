@@ -4,26 +4,6 @@
     box-sizing: border-box;
 }
 
-p{
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-body{
-    font-family: Roboto;
-}
-h1{
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration:underline;
-    /* text-indent: 44px; */
-    letter-spacing: 0.5rem;
-    text-shadow: 2px 2px lightblue;
-}
-li, a{
-    text-decoration: none;
-    list-style: none;
-}
-ul{
-    display:flex;
-    justify-content: space-around;
+a{
+    background-color: lightblue;
 }
