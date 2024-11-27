@@ -35,8 +35,8 @@ main{
 
 
 
-.skills{
-
+.section-title{
+    text-align: center;
 }
 .row::after{
 content: "";
@@ -55,22 +55,23 @@ float: left;
 .card:hover{
     box-shadow: 0.1rem 0.1rem 0.5rem rgba(205, 202, 202, 0.5);
 }
-.card-title{
-
-}
-
-.card-body{
-
-}
-
-
-
-
-
 
 footer{
     background-color: var(--text-bg-2);
     padding: 1rem;
     color: var(--text-primary-color);
     
+}
+
+.parent{
+background-color: aqua;
+height: 20rem;
+}
+
+.child{
+    background-color: orange;
+    width: 20rem;
+    position:relative;
+    top: 2rem;
+    left: 2rem;
 }
