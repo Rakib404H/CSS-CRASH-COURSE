@@ -32,6 +32,34 @@ main{
     color: var(--text-primary-color);
     padding: var(--padding);
 }
+
+.skills{
+
+}
+
+.card{
+width: 20rem;
+background-color: bisque;
+padding: var(--padding);
+margin: var(--padding);
+color: #000;
+}
+.card:hover{
+    box-shadow: 0.1rem 0.2rem rgba(205, 202, 202, 0.5);
+}
+.card-title{
+
+}
+
+.card-body{
+
+}
+
+
+
+
+
+
 footer{
     background-color: var(--text-bg-2);
     padding: 1rem;
