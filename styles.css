@@ -33,19 +33,27 @@ main{
     padding: var(--padding);
 }
 
+
+
 .skills{
 
 }
+.row::after{
+content: "";
+clear: both;
+display: table;
 
+}
 .card{
-width: 20rem;
+width: 25%;
 background-color: bisque;
 padding: var(--padding);
 margin: var(--padding);
 color: #000;
+float: left;
 }
 .card:hover{
-    box-shadow: 0.1rem 0.2rem rgba(205, 202, 202, 0.5);
+    box-shadow: 0.1rem 0.1rem 0.5rem rgba(205, 202, 202, 0.5);
 }
 .card-title{
 
