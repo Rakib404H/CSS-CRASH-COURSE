@@ -94,7 +94,6 @@ nav a{
     text-decoration: none;
 }
 .tutorial-parent{
-    background-color: brown;
     height: 80vh;
     display: flex;
     gap: 1rem;
@@ -117,3 +116,27 @@ nav a{
 .tutorial-parent div:nth-child(2){
     background-color: lightseagreen;
 }
+
+/* team member section starts*/
+.team-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 30px;
+    /* grid-template-rows: 30px 30px 30px; */
+    
+}
+.team-member{
+    background-color: bisque;
+    color: #000;
+    padding: var(--padding);
+}
+
+/* team member section ends*/
