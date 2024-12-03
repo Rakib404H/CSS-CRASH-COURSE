@@ -170,6 +170,104 @@ footer p {
 
 /* footer section ends here */
 
+
+/* animation section  */
+#animation-container{
+text-align: center;
+min-height: 100vh;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+animation: color-cycle 5s timing-function delay iteration-count direction fill-mode;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: khaki;
+    border-radius: 50%;
+}
+/* animation section ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* media querry starts */
 
 @media screen and (max-width: 992px) {
